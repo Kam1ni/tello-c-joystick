@@ -183,3 +183,11 @@ void TELLO_Takeoff(){
 void TELLO_Land(){
 	TELLO_SendCommand("land");
 }
+
+void TELLO_StreamOn(){
+	TELLO_SendCommand("streamon");
+}
+
+void TELLO_StreamOff(){
+	TELLO_SendCommand("streamoff");
+}

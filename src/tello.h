@@ -15,6 +15,8 @@ void TELLO_SendCommand(char * command);
 void TELLO_Rc(int roll, int pitch, int throttle, int yaw);
 void TELLO_Takeoff();
 void TELLO_Land();
+void TELLO_StreamOn();
+void TELLO_StreamOff();
 
 struct TelloState {
 	int pitch;
