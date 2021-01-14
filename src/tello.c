@@ -191,3 +191,7 @@ void TELLO_StreamOn(){
 void TELLO_StreamOff(){
 	TELLO_SendCommand("streamoff");
 }
+
+void TELLO_Emergency(){
+	TELLO_SendCommand("emergency");
+}

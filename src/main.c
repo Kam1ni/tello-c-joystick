@@ -67,6 +67,8 @@ int main(int argc, char *argv[]){
 					TELLO_Takeoff();
 				}else if (event.cbutton.button == 1){
 					TELLO_Land();
+				}else if (event.cbutton.button == 3){
+					TELLO_Emergency();
 				}
 			}
 		}

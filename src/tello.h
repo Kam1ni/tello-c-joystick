@@ -17,6 +17,7 @@ void TELLO_Takeoff();
 void TELLO_Land();
 void TELLO_StreamOn();
 void TELLO_StreamOff();
+void TELLO_Emergency();
 
 struct TelloState {
 	int pitch;

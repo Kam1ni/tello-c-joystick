@@ -15,6 +15,7 @@ This app currently only works on Windows and is only tested with MinGW. Linux is
 | --- | --- |
 | takeoff | A button|
 | land | B button |
+| Emergency | Y button |
 | ascend/descend | left analog stick y axis |
 | yaw | left analog stick x axis |
 | forward/backward | right analog stick y axis |
